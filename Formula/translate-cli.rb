@@ -11,6 +11,13 @@ class TranslateCli < Formula
     system "cargo", "install", *std_cargo_args
   end
 
+  def caveats
+    <<~EOS
+      To add the tpl (en->pl) and ten (pl->en) shortcuts to your shell, run:
+        translate shell-setup
+    EOS
+  end
+
   test do
     assert_match version.to_s, shell_output("#{bin}/translate --version")
   end
