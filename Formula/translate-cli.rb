@@ -1,8 +1,8 @@
 class TranslateCli < Formula
   desc "Translate text from the terminal with DeepL"
   homepage "https://github.com/michalczukm/translate-cli"
-  url "https://github.com/michalczukm/translate-cli/archive/refs/tags/v0.0.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/michalczukm/translate-cli/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "b50ae347a6a1439bdd17cfb2fe96a4a09735e6b750fc6b970cf1e236cec9ac57"
   license "MIT"
 
   depends_on "rust" => :build
