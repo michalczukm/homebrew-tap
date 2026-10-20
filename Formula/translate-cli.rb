@@ -13,8 +13,8 @@ class TranslateCli < Formula
 
   def caveats
     <<~EOS
-      To add the tpl (en->pl) and ten (pl->en) shortcuts to your shell, run:
-        translate shell-setup
+      To add the shell shortcuts (Polish or German <-> English) and your DeepL API key, run:
+        translate setup
     EOS
   end
 
